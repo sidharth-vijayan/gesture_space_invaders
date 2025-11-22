@@ -1,0 +1,6 @@
+# Normalize line endings
+* text=auto
+# Keep binary assets as binary
+assets/* binary
+assets/*.png filter=lfs diff=lfs merge=lfs -text
+assets/*.wav filter=lfs diff=lfs merge=lfs -text

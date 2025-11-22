@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual env
+venv/
+env/
+ENV/
+.venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Pygame/media
+assets/*.wav
+assets/*.mp3
+assets/*.ogg
+assets/*.exr
+
+# Logs & runtime
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Bytecode & caches
+*.pyc
+
+# Secrets (just in case)
+.env
