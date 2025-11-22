@@ -2,6 +2,10 @@
 
 A Space-Invaders-style game controlled entirely with webcam gestures using MediaPipe Hands + Pygame.
 
+- Move ship with hand horizontal position.
+- Pinch to shoot.
+- Smoothing, deadzone, webcam preview and local highscore storage.
+
 ---
 
 ## Features
